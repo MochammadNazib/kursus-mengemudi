@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#f0f0f0"/>
+  
+  <!-- Shadow -->
+  <ellipse cx="200" cy="230" rx="140" ry="15" fill="rgba(0,0,0,0.1)"/>
+  
+  <!-- Car body main (Red) -->
+  <path d="M 110 130 L 150 90 L 250 90 L 290 130 L 290 190 Q 290 210 270 210 L 130 210 Q 110 210 110 190 Z" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+  
+  <!-- Car top/roof (Darker red) -->
+  <path d="M 160 90 L 175 55 L 225 55 L 240 90 Z" fill="#c0392b" stroke="#a93226" stroke-width="1.5"/>
+  
+  <!-- Windshield -->
+  <path d="M 165 90 L 180 60 L 220 60 L 235 90 Z" fill="#87ceeb" opacity="0.6"/>
+  
+  <!-- Front window -->
+  <rect x="170" y="100" width="35" height="35" fill="#87ceeb" opacity="0.5" rx="3"/>
+  
+  <!-- Rear window -->
+  <rect x="195" y="100" width="35" height="35" fill="#87ceeb" opacity="0.5" rx="3"/>
+  
+  <!-- Side window -->
+  <rect x="235" y="105" width="28" height="30" fill="#87ceeb" opacity="0.4" rx="2"/>
+  
+  <!-- Front bumper -->
+  <rect x="110" y="190" width="180" height="20" fill="#2c3e50" stroke="#000" stroke-width="1"/>
+  
+  <!-- Grille -->
+  <rect x="135" y="195" width="130" height="10" fill="#34495e"/>
+  <line x1="155" y1="195" x2="155" y2="205" stroke="#555" stroke-width="1"/>
+  <line x1="175" y1="195" x2="175" y2="205" stroke="#555" stroke-width="1"/>
+  <line x1="195" y1="195" x2="195" y2="205" stroke="#555" stroke-width="1"/>
+  <line x1="215" y1="195" x2="215" y2="205" stroke="#555" stroke-width="1"/>
+  <line x1="235" y1="195" x2="235" y2="205" stroke="#555" stroke-width="1"/>
+  
+  <!-- Headlights -->
+  <circle cx="135" cy="180" r="7" fill="#ffff99" stroke="#333" stroke-width="1"/>
+  <circle cx="135" cy="180" r="4" fill="#ffff66"/>
+  
+  <circle cx="265" cy="180" r="7" fill="#ffff99" stroke="#333" stroke-width="1"/>
+  <circle cx="265" cy="180" r="4" fill="#ffff66"/>
+  
+  <!-- Front wheels (smaller for compact car) -->
+  <circle cx="145" cy="210" r="18" fill="#333" stroke="#000" stroke-width="2"/>
+  <circle cx="145" cy="210" r="13" fill="#555"/>
+  <circle cx="145" cy="210" r="8" fill="#777"/>
+  
+  <!-- Rear wheels (smaller for compact car) -->
+  <circle cx="255" cy="210" r="18" fill="#333" stroke="#000" stroke-width="2"/>
+  <circle cx="255" cy="210" r="13" fill="#555"/>
+  <circle cx="255" cy="210" r="8" fill="#777"/>
+  
+  <!-- Wheel rims detail -->
+  <circle cx="145" cy="210" r="6" fill="none" stroke="#999" stroke-width="1" opacity="0.5"/>
+  <circle cx="255" cy="210" r="6" fill="none" stroke="#999" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Door lines -->
+  <line x1="200" y1="130" x2="200" y2="210" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.6"/>
+  
+  <!-- Handles -->
+  <rect x="175" y="145" width="28" height="7" fill="#7f8c8d" rx="2"/>
+  <rect x="175" y="170" width="28" height="7" fill="#7f8c8d" rx="2"/>
+  
+  <!-- License plate -->
+  <rect x="120" y="215" width="55" height="18" fill="#ffff00" stroke="#000" stroke-width="2" rx="2"/>
+  <text x="147.5" y="227" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle" fill="#000">D 475</text>
+</svg>
